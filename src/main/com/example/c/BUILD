@@ -1,12 +1,9 @@
 java_library(
-    name = "B",
+    name = "C",
     srcs = [
-        "B.java",
+        "C.java",
     ],
     visibility = [
         "//visibility:public"
     ],
-    deps = [
-        "//src/main/com/example/c:C"
-    ]
 )
